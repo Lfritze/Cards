@@ -1,9 +1,9 @@
-import dotenv from 'dotenv';
+// import dotenv from 'dotenv';
 
-dotenv.config();
+// dotenv.config();
 
 export default {
-  MONGODB_URL: process.env.MONGODB_URL || 'mongodb://localhost/cardshop',
+  MONGODB_URL: process.env.MONGODB_URL || 'mongodb://localhost/cards',
   JWT_SECRET: process.env.JWT_SECRET || 'somethingsecret',
   PAYPAL_CLIENT_ID: process.env.PAYPAL_CLIENT_ID || 'sb'
 }
