@@ -78,6 +78,4 @@ router.delete('/:id', isAuth, isAdmin, async (req, res) => {
   }
 });
 
-
-
 export default router;
